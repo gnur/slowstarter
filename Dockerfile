@@ -8,4 +8,6 @@ RUN pip install -r requirements.txt
 
 ADD . /usr/src/app
 
+EXPOSE 8080
+
 CMD [ "/usr/src/app/main.py" ]

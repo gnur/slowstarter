@@ -43,7 +43,7 @@ def delayedUnhealthy():
 
     if boottime + timeTilHealthy > int(time()):
         return "ok"
-    abort(500, "not healthy yet")
+    abort(500, "not unhealthy yet")
 
 
 def main():
